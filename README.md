@@ -1,10 +1,40 @@
-# Self-Driving-Car-Simulator
-By using Artificial Intelligence and Webots app I have made this Self Driving Car Simulator. 
-First Install Webots app for windows. We have 4 folders for this project.
-1) Controllers folder contains drive_controller [Self Driving Car] and EV_controller [Emergency Vechicle Car] folders inside which we have all driving conditions like lane_management , object_recognition , voice_assistant etc required for the car. 
+# Self Driving Car Simulator
 
-2) Plugins which contains all the views like top view, bottom view, front view, back view, left view and right view. 
+## Overview
+This project leverages Artificial Intelligence alongside the Webots simulation environment to create an immersive Self Driving Car Simulator. It demonstrates the capabilities of autonomous vehicles to navigate complex driving scenarios, including dynamic obstacle avoidance and lane management.
 
-3) Protos folder contains all the car vechicle brands like tesla, bmw, lincoln, range_rover, toyota etc. These cars are used as objections in middle of the road so that our self driving car recognizes them as obstacle and move through a new lane. 
+## Features
+- **Advanced Driving Controllers**: Includes `drive_controller` for the self-driving car and `EV_controller` for emergency vehicles, encompassing functionalities such as lane management, object recognition, and voice assistance.
+- **Comprehensive Views Plugin**: Offers multiple perspectives with top, bottom, front, back, left, and right views to closely monitor the simulation.
+- **Diverse Vehicle Prototypes**: Features a wide range of vehicle brands like Tesla, BMW, Lincoln, Range Rover, and Toyota, serving as dynamic obstacles in the simulation.
+- **Realistic World Textures**: Enriches the simulation environment with detailed road lines, grass, trees, and flowers alongside the roads, enhancing the overall experience.
 
-4) Worlds folder contains all the textures like road lines and grass, trees and flowers at the side of road. In this folder we also have highway_overtake which is the webot file. After installing webot we need to open this file and run the application.  This is the self driving car simulation. If we need to change the obstacle to other lane we can do it through code or else when we click the obstacle we can move it in a 3-D way and change the obstacle wherever it is needed.
+## Getting Started
+
+### Prerequisites
+- Ensure you have Webots app installed on your Windows machine. You can download it [here](https://www.cyberbotics.com/).
+
+### Installation and Running the Simulation
+1. **Clone the Repository**
+    ```bash
+    git clone URL_TO_THIS_REPOSITORY
+    ```
+2. **Navigate to the Project Directory**
+    ```bash
+    cd PATH_TO_PROJECT
+    ```
+3. **Explore the Folders**
+    - **Controllers**: Contains driving conditions and behaviors.
+    - **Plugins**: Views for the simulation.
+    - **Protos**: Vehicle prototypes as obstacles.
+    - **Worlds**: Environment textures and the main simulation file.
+
+4. **Launch Webots and Open the Simulation**
+    - Open Webots and navigate to the `Worlds` folder.
+    - Open `highway_overtake.wbt` and run the simulation.
+
+### Customization
+- **Obstacle Management**: You can either modify the code to change obstacle positions or use the 3D view to drag obstacles to new locations.
+
+## Contributing
+Contributions to the Self Driving Car Simulator are welcome! Whether it's feature enhancement, bug fixing, or adding new vehicle prototypes, feel free to fork the repository and submit your pull requests.
